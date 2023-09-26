@@ -107,19 +107,22 @@ Here is a quick tip to help you test your sorting algorithms with big sets of ra
 
 ## Tasks
 
-**0. Bubble sort**  == mandator ==
+0. **Bubble sort**
+==mandatory==
 
 
 
-Write a function that sorts an array of integers in ascending order using the Bubble sort algorithm
+Write a function that sorts an array of integers in ascending order using the [Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) algorithm
 
-Prototype: void bubble_sort(int *array, size_t size);
-You’re expected to print the array after each time you swap two elements (See example below)
-Write in the file 0-O, the big O notations of the time complexity of the Bubble sort algorithm, with 1 notation per line:
+* Prototype: `void bubble_sort(int *array, size_t size);`
+* You’re expected to print the `array` after each time you swap two elements (See example below)
+Write in the file `0-O`, the big O notations of the time complexity of the Bubble sort algorithm, with 1 notation per line:
 
-in the best case
-in the average case
-in the worst case
+* in the best case
+* in the average case
+* in the worst case
+
+```
 alex@/tmp/sort$ cat 0-main.c 
 #include <stdio.h>
 #include <stdlib.h>
@@ -170,13 +173,14 @@ alex@/tmp/sort$ ./bubble
 
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
 alex@/tmp/sort$ 
-Repo:
+```
+**Repo:**
 
-GitHub repository: sorting_algorithms
-File: 0-bubble_sort.c, 0-O
+* GitHub repository: sorting_algorithms
+* File: 0-bubble_sort.c, 0-O
   
-1. Insertion sort
-mandatory
+1. **Insertion sort**
+==mandatory==
 
 
 
