@@ -106,9 +106,8 @@ Here is a quick tip to help you test your sorting algorithms with big sets of ra
 
 
 ## Tasks
-| 0. Bubble sort 
-==mandatory== |
-| ---------------------- |
+
+| 0. **Bubble sort** | mandator |
 
 
 
